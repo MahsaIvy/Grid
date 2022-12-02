@@ -1,0 +1,116 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+.calc {
+  border: 1px solid black;
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-areas:
+    "result result result result"
+    "plus minus multy division"
+    "seven eight nine equal"
+    "four five six equal"
+    "one two three equal"
+    "zeroo point ac equal";
+}
+.result {
+  grid-area: result;
+  color: white;
+  background-color: #394348;
+  padding: 50px 5px 10px 470px;
+}
+.plus {
+  grid-area: plus;
+  border: 1px solid rgba(128, 128, 128, 0.7);
+  padding: 10px;
+  background-color: #cbd7df;
+}
+.minus {
+  grid-area: minus;
+  border: 1px solid rgba(128, 128, 128, 0.7);
+  background-color: #cbd7df;
+  padding: 10px;
+}
+.multy {
+  grid-area: multy;
+  border: 1px solid rgba(128, 128, 128, 0.7);
+  padding: 10px;
+  background-color: #cbd7df;
+}
+.division {
+  grid-area: division;
+  border: 1px solid rgba(128, 128, 128, 0.7);
+  padding: 10px;
+  background-color: #cbd7df;
+}
+.seven {
+  grid-area: seven;
+  border: 1px solid rgba(128, 128, 128, 0.7);
+  padding: 10px;
+}
+.eight {
+  grid-area: eight;
+  border: 1px solid rgba(128, 128, 128, 0.7);
+  padding: 10px;
+}
+.nine {
+  grid-area: nine;
+  border: 1px solid rgba(128, 128, 128, 0.7);
+  padding: 10px;
+}
+.four {
+  grid-area: four;
+  border: 1px solid rgba(128, 128, 128, 0.7);
+  padding: 10px;
+}
+.five {
+  grid-area: five;
+  border: 1px solid rgba(128, 128, 128, 0.7);
+  padding: 10px;
+}
+.six {
+  grid-area: six;
+  border: 1px solid rgba(128, 128, 128, 0.7);
+  padding: 10px;
+}
+.one {
+  grid-area: one;
+  border: 1px solid rgba(128, 128, 128, 0.7);
+  padding: 10px;
+}
+.two {
+  grid-area: two;
+  border: 1px solid rgba(128, 128, 128, 0.7);
+  padding: 10px;
+}
+.three {
+  grid-area: three;
+  border: 1px solid rgba(128, 128, 128, 0.7);
+  padding: 10px;
+}
+.zeroo {
+  grid-area: zeroo;
+  border: 1px solid rgba(128, 128, 128, 0.7);
+  padding: 10px;
+}
+.point {
+  grid-area: point;
+  border: 1px solid rgba(128, 128, 128, 0.7);
+  padding: 10px;
+}
+.ac {
+  grid-area: ac;
+  border: 1px solid rgba(128, 128, 128, 0.7);
+  padding: 10px;
+}
+.equal {
+  grid-area: equal;
+  border: 1px solid rgba(128, 128, 128, 0.7);
+  padding: 10px;
+  background-color: #ff656e;
+}
